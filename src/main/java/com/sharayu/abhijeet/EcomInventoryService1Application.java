@@ -13,7 +13,7 @@ public class EcomInventoryService1Application {
 	public static Logger logger=LoggerFactory.getLogger(EcomInventoryService1Application.class);
 	
 	@PostConstruct
-	public void init()
+	public init()
 	{
 		logger.info("Application Started....");
 	}
