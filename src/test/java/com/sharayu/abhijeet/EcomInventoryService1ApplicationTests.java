@@ -17,6 +17,7 @@ class EcomInventoryService1ApplicationTests {
 	void contextLoads() {
 		assertEquals(true, true);
 		logger.info("Application execution test started....");
+		logger.info("Application execution test started second time....");
 	}
 
 }
